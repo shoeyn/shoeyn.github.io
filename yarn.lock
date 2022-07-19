@@ -442,11 +442,11 @@
     unimport "^0.1.6"
     untyped "^0.4.4"
 
-"@nuxt/kit@^3.0.0-rc.3", "@nuxt/kit@^3.0.0-rc.5":
-  version "3.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.5.tgz#4ee104e517910ed26132583d7adaff88bdd8d89a"
+"@nuxt/kit@^3.0.0-rc.3", "@nuxt/kit@^3.0.0-rc.5", "@nuxt/kit@^3.0.0-rc.6":
+  version "3.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.6.tgz#b59c10639cb591bdc5a63164fb352b344230a065"
   dependencies:
-    "@nuxt/schema" "^3.0.0-rc.5"
+    "@nuxt/schema" "^3.0.0-rc.6"
     c12 "^0.2.8"
     consola "^2.15.3"
     defu "^6.0.0"
@@ -462,7 +462,7 @@
     scule "^0.2.1"
     semver "^7.3.7"
     unctx "^1.1.4"
-    unimport "^0.4.4"
+    unimport "^0.4.5"
     untyped "^0.4.4"
 
 "@nuxt/postcss8@^1.1.3":
@@ -478,9 +478,9 @@
     postcss-url "^10.1.1"
     semver "^7.3.4"
 
-"@nuxt/schema@^3.0.0-rc.1", "@nuxt/schema@^3.0.0-rc.5":
-  version "3.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.0.0-rc.5.tgz#c32b84b3aeb0ce474cd268b9dc5d801d8139aaed"
+"@nuxt/schema@^3.0.0-rc.1", "@nuxt/schema@^3.0.0-rc.6":
+  version "3.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.0.0-rc.6.tgz#47baab10792057c799cd60ab2570d4fa20d65e1d"
   dependencies:
     c12 "^0.2.8"
     create-require "^1.1.1"
@@ -491,7 +491,7 @@
     scule "^0.2.1"
     std-env "^3.1.1"
     ufo "^0.8.5"
-    unimport "^0.4.4"
+    unimport "^0.4.5"
 
 "@nuxt/telemetry@^2.1.3":
   version "2.1.3"
@@ -522,11 +522,11 @@
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@nuxt/ui-templates/-/ui-templates-0.2.1.tgz#96704c1bc15fc77d0f48dd9114dafceb1f3ac5d8"
 
-"@nuxt/vite-builder@^3.0.0-rc.5":
-  version "3.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder/-/vite-builder-3.0.0-rc.5.tgz#700bf60127e0481a69faa6f1bbbbbd95bf003621"
+"@nuxt/vite-builder@^3.0.0-rc.6":
+  version "3.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder/-/vite-builder-3.0.0-rc.6.tgz#f5d43c1c6e249094a47751df84306a6e627ba260"
   dependencies:
-    "@nuxt/kit" "^3.0.0-rc.5"
+    "@nuxt/kit" "^3.0.0-rc.6"
     "@rollup/plugin-replace" "^4.0.0"
     "@vitejs/plugin-vue" "^2.3.3"
     "@vitejs/plugin-vue-jsx" "^1.3.10"
@@ -544,18 +544,18 @@
     knitwork "^0.1.2"
     magic-string "^0.26.2"
     mlly "^0.5.4"
-    ohash "^0.1.0"
+    ohash "^0.1.4"
     pathe "^0.3.2"
     perfect-debounce "^0.1.3"
     postcss "^8.4.14"
     postcss-import "^14.1.0"
     postcss-url "^10.1.3"
-    rollup "^2.76.0"
-    rollup-plugin-visualizer "^5.6.0"
+    rollup "^2.77.0"
+    rollup-plugin-visualizer "^5.7.1"
     ufo "^0.8.5"
     unplugin "^0.7.2"
     vite "^2.9.14"
-    vite-node "^0.18.0"
+    vite-node "^0.18.1"
     vite-plugin-checker "^0.4.9"
 
 "@nuxtjs/color-mode@^3.1.4":
@@ -3420,7 +3420,7 @@ loader-utils@^2.0.0:
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
-local-pkg@^0.4.1:
+local-pkg@^0.4.1, local-pkg@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/local-pkg/-/local-pkg-0.4.2.tgz#13107310b77e74a0e513147a131a2ba288176c2f"
 
@@ -4080,7 +4080,7 @@ negotiator@0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
 
-nitropack@^0.4.11:
+nitropack@^0.4.12:
   version "0.4.12"
   resolved "https://registry.yarnpkg.com/nitropack/-/nitropack-0.4.12.tgz#b83d83c92d34de2785f6e1cd27310f10b8da9818"
   dependencies:
@@ -4232,22 +4232,22 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
-nuxi@^3.0.0-rc.5:
-  version "3.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-3.0.0-rc.5.tgz#403f719e6f602659d6833198e6767782e33d91f6"
+nuxi@^3.0.0-rc.6:
+  version "3.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-3.0.0-rc.6.tgz#6cac3f31c5d1b2ec4d5bea69018238245b6470c2"
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt@3.0.0-rc.5:
-  version "3.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.0.0-rc.5.tgz#d4b03c33c184880120d49a50e238dbd5f1906abf"
+nuxt@3.0.0-rc.6:
+  version "3.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.0.0-rc.6.tgz#c0a81f53d1c39fefae87abebaba8c63949e40751"
   dependencies:
     "@nuxt/devalue" "^2.0.0"
-    "@nuxt/kit" "^3.0.0-rc.5"
-    "@nuxt/schema" "^3.0.0-rc.5"
+    "@nuxt/kit" "^3.0.0-rc.6"
+    "@nuxt/schema" "^3.0.0-rc.6"
     "@nuxt/telemetry" "^2.1.3"
     "@nuxt/ui-templates" "^0.2.1"
-    "@nuxt/vite-builder" "^3.0.0-rc.5"
+    "@nuxt/vite-builder" "^3.0.0-rc.6"
     "@vue/reactivity" "^3.2.37"
     "@vue/shared" "^3.2.37"
     "@vueuse/head" "^0.7.6"
@@ -4264,9 +4264,9 @@ nuxt@3.0.0-rc.5:
     knitwork "^0.1.2"
     magic-string "^0.26.2"
     mlly "^0.5.4"
-    nitropack "^0.4.11"
-    nuxi "^3.0.0-rc.5"
-    ohash "^0.1.0"
+    nitropack "^0.4.12"
+    nuxi "^3.0.0-rc.6"
+    ohash "^0.1.4"
     ohmyfetch "^0.4.18"
     pathe "^0.3.2"
     perfect-debounce "^0.1.3"
@@ -4275,7 +4275,7 @@ nuxt@3.0.0-rc.5:
     ufo "^0.8.5"
     unctx "^1.1.4"
     unenv "^0.5.2"
-    unimport "^0.4.4"
+    unimport "^0.4.5"
     unplugin "^0.7.2"
     untyped "^0.4.4"
     vue "^3.2.37"
@@ -4315,9 +4315,9 @@ object.values@^1.1.5:
     define-properties "^1.1.3"
     es-abstract "^1.19.1"
 
-ohash@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/ohash/-/ohash-0.1.0.tgz#cde74db91cfb7259477a93e0959221c4e20a5881"
+ohash@^0.1.0, ohash@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/ohash/-/ohash-0.1.4.tgz#e5b55740b6047b9b66a3b836b1c92cc747197c05"
 
 ohmyfetch@^0.4.15, ohmyfetch@^0.4.16, ohmyfetch@^0.4.18:
   version "0.4.18"
@@ -5177,6 +5177,15 @@ rollup-plugin-visualizer@^5.6.0:
     source-map "^0.7.3"
     yargs "^17.3.1"
 
+rollup-plugin-visualizer@^5.7.1:
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-visualizer/-/rollup-plugin-visualizer-5.7.1.tgz#7af30b02e6579155368a90b37b6ee9137b391d06"
+  dependencies:
+    nanoid "^3.3.4"
+    open "^8.4.0"
+    source-map "^0.7.3"
+    yargs "^17.5.1"
+
 rollup-pluginutils@^2.8.2:
   version "2.8.2"
   resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz#72f2af0748b592364dbd3389e600e5a9444a351e"
@@ -5186,6 +5195,12 @@ rollup-pluginutils@^2.8.2:
 rollup@^2.59.0, rollup@^2.75.6, rollup@^2.76.0:
   version "2.76.0"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.76.0.tgz#c69fe03db530ac53fcb9523b3caa0d3c0b9491a1"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+rollup@^2.77.0:
+  version "2.77.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.77.0.tgz#749eaa5ac09b6baa52acc076bc46613eddfd53f4"
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -5841,20 +5856,20 @@ unimport@^0.1.6:
     scule "^0.2.1"
     unplugin "^0.6.3"
 
-unimport@^0.4.4:
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/unimport/-/unimport-0.4.4.tgz#bad162e57d4419761cd2e9c9f26a09a4fbf4149e"
+unimport@^0.4.4, unimport@^0.4.5:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-0.4.5.tgz#aa4c4aa2ef1027352f9ad79693f083929f18b660"
   dependencies:
     "@rollup/pluginutils" "^4.2.1"
     escape-string-regexp "^5.0.0"
     fast-glob "^3.2.11"
-    local-pkg "^0.4.1"
+    local-pkg "^0.4.2"
     magic-string "^0.26.2"
     mlly "^0.5.4"
     pathe "^0.3.2"
     scule "^0.2.1"
     strip-literal "^0.4.0"
-    unplugin "^0.7.1"
+    unplugin "^0.7.2"
 
 unist-builder@^3.0.0:
   version "3.0.0"
@@ -5917,7 +5932,7 @@ unplugin@^0.6.1, unplugin@^0.6.3:
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.4.3"
 
-unplugin@^0.7.1, unplugin@^0.7.2:
+unplugin@^0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.7.2.tgz#4127012fdc2c84ea4ce03ce75e3d4f54ea47bba1"
   dependencies:
@@ -6029,13 +6044,13 @@ vfile@^5.0.0:
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
 
-vite-node@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.18.0.tgz#9d813a6a093b0f0c4de5e6d12ed158ae72258fdc"
+vite-node@^0.18.1:
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.18.1.tgz#f25e721ece6105de13004723e9bb6f5cd81674c5"
   dependencies:
     debug "^4.3.4"
     kolorist "^1.5.1"
-    mlly "^0.5.3"
+    mlly "^0.5.4"
     pathe "^0.2.0"
     vite "^2.9.12 || ^3.0.0-0"
 
@@ -6257,7 +6272,7 @@ yargs-parser@^21.0.0:
   version "21.0.1"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
 
-yargs@^17.2.1, yargs@^17.3.1:
+yargs@^17.2.1, yargs@^17.3.1, yargs@^17.5.1:
   version "17.5.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.5.1.tgz#e109900cab6fcb7fd44b1d8249166feb0b36e58e"
   dependencies:
