@@ -1,1 +1,0 @@
-import{k as t,o as n,l as o,m as _,w as s,s as a,t as c}from"./entry-5e92a234.mjs";const r={},l=c("h1",{class:"text-2xl"}," Page not found ",-1);function u(d,f){const e=a;return n(),o("main",null,[_(e,null,{"not-found":s(()=>[l]),_:1})])}var x=t(r,[["render",u]]);export{x as default};
