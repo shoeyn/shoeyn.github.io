@@ -1,1 +1,0 @@
-import{e as t,o as n,f as o,k as s,w as c,l as _,h as a}from"./entry.c0b136af.js";const r={},l=a("h1",{class:"text-2xl"}," Page not found ",-1);function f(d,u){const e=_;return n(),o("main",null,[s(e,null,{"not-found":c(()=>[l]),_:1})])}const m=t(r,[["render",f]]);export{m as default};
