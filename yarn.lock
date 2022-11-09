@@ -808,23 +808,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/content@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "@nuxt/content@npm:2.1.1"
+"@nuxt/content@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@nuxt/content@npm:2.2.1"
   dependencies:
-    "@nuxt/kit": ^3.0.0-rc.10
+    "@nuxt/kit": ^3.0.0-rc.12
     consola: ^2.15.3
     defu: ^6.1.0
-    destr: ^1.1.1
+    destr: ^1.2.0
     detab: ^3.0.1
     html-tags: ^3.2.0
     json5: ^2.2.1
     knitwork: ^0.1.2
-    listhen: ^0.2.15
-    mdast-util-to-hast: ^12.2.2
+    listhen: ^0.3.4
+    mdast-util-to-hast: ^12.2.4
     mdurl: ^1.0.1
     ohash: ^0.1.5
-    pathe: ^0.3.7
+    pathe: ^0.3.9
     property-information: ^6.1.1
     rehype-external-links: ^2.0.1
     rehype-raw: ^6.1.1
@@ -833,21 +833,22 @@ __metadata:
     rehype-sort-attributes: ^4.0.0
     remark-emoji: ^3.0.2
     remark-gfm: ^3.0.1
-    remark-mdc: ^1.0.7
+    remark-mdc: ^1.1.0
     remark-parse: ^10.0.1
     remark-rehype: ^10.1.0
     remark-squeeze-paragraphs: ^5.0.1
     scule: ^0.3.2
     shiki-es: ^0.1.2
     slugify: ^1.6.5
-    ufo: ^0.8.5
+    socket.io-client: ^4.5.3
+    ufo: ^0.8.6
     unified: ^10.1.2
     unist-builder: ^3.0.0
     unist-util-position: ^4.0.3
     unist-util-visit: ^4.1.1
-    unstorage: ^0.5.6
-    ws: ^8.8.1
-  checksum: c1cf817168bb19c63a0a222aae5d77dd1866daa224b21673fffee66ed5382b3429f79340c0a65ea5a2c18ef795983a88ed547203090db1db867807e6bb43d52c
+    unstorage: ^0.6.0
+    ws: ^8.10.0
+  checksum: 743767e04cf2dc5895f09566a653b59665d79fef75f6d334b67cd8cf7a296843bb5c94e63679507428e0e0a575914802dc25822daa6e8511d87f563017ccd58a
   languageName: node
   linkType: hard
 
@@ -858,7 +859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.0.0-rc.13, @nuxt/kit@npm:^3.0.0-rc.11":
+"@nuxt/kit@npm:3.0.0-rc.13, @nuxt/kit@npm:^3.0.0-rc.11, @nuxt/kit@npm:^3.0.0-rc.12":
   version: 3.0.0-rc.13
   resolution: "@nuxt/kit@npm:3.0.0-rc.13"
   dependencies:
@@ -884,7 +885,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^3.0.0-rc.10, @nuxt/kit@npm:^3.0.0-rc.9":
+"@nuxt/kit@npm:^3.0.0-rc.9":
   version: 3.0.0-rc.11
   resolution: "@nuxt/kit@npm:3.0.0-rc.11"
   dependencies:
@@ -1255,6 +1256,13 @@ __metadata:
     rollup:
       optional: true
   checksum: edea15e543bebc7dcac3b0ac8bc7b8e8e6dbd46e2864dbe5dd28072de1fbd5b0e10d545a610c0edaa178e8a7ac432e2a2a52e547ece1308471412caba47db8ce
+  languageName: node
+  linkType: hard
+
+"@socket.io/component-emitter@npm:~3.1.0":
+  version: 3.1.0
+  resolution: "@socket.io/component-emitter@npm:3.1.0"
+  checksum: db069d95425b419de1514dffe945cc439795f6a8ef5b9465715acf5b8b50798e2c91b8719cbf5434b3fe7de179d6cdcd503c277b7871cb3dd03febb69bdd50fa
   languageName: node
   linkType: hard
 
@@ -3042,7 +3050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
+"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4, debug@npm:~4.3.1, debug@npm:~4.3.2":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -3410,6 +3418,26 @@ __metadata:
   dependencies:
     once: ^1.4.0
   checksum: 530a5a5a1e517e962854a31693dbb5c0b2fc40b46dad2a56a2deec656ca040631124f4795823acc68238147805f8b021abbe221f4afed5ef3c8e8efc2024908b
+  languageName: node
+  linkType: hard
+
+"engine.io-client@npm:~6.2.3":
+  version: 6.2.3
+  resolution: "engine.io-client@npm:6.2.3"
+  dependencies:
+    "@socket.io/component-emitter": ~3.1.0
+    debug: ~4.3.1
+    engine.io-parser: ~5.0.3
+    ws: ~8.2.3
+    xmlhttprequest-ssl: ~2.0.0
+  checksum: c09fb6429503a4a8a599ec1c4f67f100202e6e06588b67b81d386a4ebf8e81160cf7501ad6770ffe0a04575f41868f0a4cbf330b85de3f7cd24ebcf2bf9fc660
+  languageName: node
+  linkType: hard
+
+"engine.io-parser@npm:~5.0.3":
+  version: 5.0.4
+  resolution: "engine.io-parser@npm:5.0.4"
+  checksum: d4ad0cef6ff63c350e35696da9bb3dbd180f67b56e93e90375010cc40393e6c0639b780d5680807e1d93a7e2e3d7b4a1c3b27cf75db28eb8cbf605bc1497da03
   languageName: node
   linkType: hard
 
@@ -4756,18 +4784,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^0.7.12":
-  version: 0.7.21
-  resolution: "h3@npm:0.7.21"
-  dependencies:
-    cookie-es: ^0.5.0
-    destr: ^1.1.1
-    radix3: ^0.1.2
-    ufo: ^0.8.5
-  checksum: 4c7f7d450ebe802d07e34717353d0a3861b53cca0fa9ffbaa1be5d0e554bdf9cf00a6e91ba07265380960dbca1b34bf7945fb2d2f76a43e9f55b89c2adbe29e4
-  languageName: node
-  linkType: hard
-
 "h3@npm:^0.8.1, h3@npm:^0.8.6":
   version: 0.8.6
   resolution: "h3@npm:0.8.6"
@@ -5249,23 +5265,6 @@ __metadata:
     has: ^1.0.3
     side-channel: ^1.0.4
   checksum: 1944f92e981e47aebc98a88ff0db579fd90543d937806104d0b96557b10c1f170c51fb777b97740a8b6ddeec585fca8c39ae99fd08a8e058dfc8ab70937238bf
-  languageName: node
-  linkType: hard
-
-"ioredis@npm:^5.2.2":
-  version: 5.2.3
-  resolution: "ioredis@npm:5.2.3"
-  dependencies:
-    "@ioredis/commands": ^1.1.1
-    cluster-key-slot: ^1.1.0
-    debug: ^4.3.4
-    denque: ^2.0.1
-    lodash.defaults: ^4.2.0
-    lodash.isarguments: ^3.1.0
-    redis-errors: ^1.2.0
-    redis-parser: ^3.0.0
-    standard-as-callback: ^2.1.0
-  checksum: 2cb7f0f4217e6774accad3620af1b7114722721c1d1824be2c9f0c2a77ab9629f2e0848d18b1a7208bc37796ae1207cb3e0898fce61900cfe797da0382724ad1
   languageName: node
   linkType: hard
 
@@ -5877,21 +5876,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"listhen@npm:^0.2.13, listhen@npm:^0.2.15":
-  version: 0.2.15
-  resolution: "listhen@npm:0.2.15"
-  dependencies:
-    clipboardy: ^3.0.0
-    colorette: ^2.0.19
-    defu: ^6.0.0
-    get-port-please: ^2.6.1
-    http-shutdown: ^1.2.2
-    selfsigned: ^2.0.1
-    ufo: ^0.8.5
-  checksum: 6190a0dec7b150698c26b08b429888e6d86a4f81121cd0bc59fe0180097a9ed4e9839bc8bfbe10d1bc7d8a176958fb9ade161e50977275ac73fa536d7656075a
-  languageName: node
-  linkType: hard
-
 "listhen@npm:^0.3.4, listhen@npm:^0.3.5":
   version: 0.3.5
   resolution: "listhen@npm:0.3.5"
@@ -6294,7 +6278,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-to-hast@npm:^12.2.2":
+"mdast-util-to-hast@npm:^12.2.4":
   version: 12.2.4
   resolution: "mdast-util-to-hast@npm:12.2.4"
   dependencies:
@@ -6702,7 +6686,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark@npm:^3.0.0, micromark@npm:^3.0.10":
+"micromark@npm:^3.0.0":
   version: 3.0.10
   resolution: "micromark@npm:3.0.10"
   dependencies:
@@ -6724,6 +6708,31 @@ __metadata:
     micromark-util-types: ^1.0.1
     uvu: ^0.5.0
   checksum: 04663fe0308cccfbf338111b41d3d82d6445d1d2b834c9fc1880e1ea3874c4a3b81adfafe62b0bc7708ba0a86889885ea31b4dbb39f1f72190c3aab46b743bb1
+  languageName: node
+  linkType: hard
+
+"micromark@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "micromark@npm:3.1.0"
+  dependencies:
+    "@types/debug": ^4.0.0
+    debug: ^4.0.0
+    decode-named-character-reference: ^1.0.0
+    micromark-core-commonmark: ^1.0.1
+    micromark-factory-space: ^1.0.0
+    micromark-util-character: ^1.0.0
+    micromark-util-chunked: ^1.0.0
+    micromark-util-combine-extensions: ^1.0.0
+    micromark-util-decode-numeric-character-reference: ^1.0.0
+    micromark-util-encode: ^1.0.0
+    micromark-util-normalize-identifier: ^1.0.0
+    micromark-util-resolve-all: ^1.0.0
+    micromark-util-sanitize-uri: ^1.0.0
+    micromark-util-subtokenize: ^1.0.0
+    micromark-util-symbol: ^1.0.0
+    micromark-util-types: ^1.0.1
+    uvu: ^0.5.0
+  checksum: 5fe5bc3bf92e2ddd37b5f0034080fc3a4d4b3c1130dd5e435bb96ec75e9453091272852e71a4d74906a8fcf992d6f79d794607657c534bda49941e9950a92e28
   languageName: node
   linkType: hard
 
@@ -7163,7 +7172,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-forge@npm:^1, node-forge@npm:^1.3.1":
+"node-forge@npm:^1.3.1":
   version: 1.3.1
   resolution: "node-forge@npm:1.3.1"
   checksum: 08fb072d3d670599c89a1704b3e9c649ff1b998256737f0e06fbd1a5bf41cae4457ccaee32d95052d80bbafd9ffe01284e078c8071f0267dc9744e51c5ed42a9
@@ -7419,7 +7428,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ohmyfetch@npm:^0.4.18, ohmyfetch@npm:^0.4.19":
+"ohmyfetch@npm:^0.4.19":
   version: 0.4.19
   resolution: "ohmyfetch@npm:0.4.19"
   dependencies:
@@ -8416,13 +8425,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"radix3@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "radix3@npm:0.1.2"
-  checksum: 483ecb97ae51e8dbda04e1c393bb001739635799bd1d7a7d1086193458df61d85f9e936c44c7bde81aba370dfd6bce8ccbf0fa691911bb8ba83379c90f96fea4
-  languageName: node
-  linkType: hard
-
 "radix3@npm:^0.2.1":
   version: 0.2.1
   resolution: "radix3@npm:0.2.1"
@@ -8662,25 +8664,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-mdc@npm:^1.0.7":
-  version: 1.0.7
-  resolution: "remark-mdc@npm:1.0.7"
+"remark-mdc@npm:^1.1.0":
+  version: 1.1.1
+  resolution: "remark-mdc@npm:1.1.1"
   dependencies:
     flat: ^5.0.2
     js-yaml: ^4.1.0
     mdast-util-from-markdown: ^1.2.0
     mdast-util-to-markdown: ^1.3.0
-    micromark: ^3.0.10
+    micromark: ^3.1.0
     micromark-core-commonmark: ^1.0.6
     micromark-factory-space: ^1.0.0
     micromark-factory-whitespace: ^1.0.0
     micromark-util-character: ^1.1.0
     parse-entities: ^4.0.0
-    scule: ^0.2.1
-    stringify-entities: ^4.0.2
-    unist-util-visit: ^4.1.0
-    unist-util-visit-parents: ^5.1.0
-  checksum: 51f20beb85f9b8eb25180e58365421c1c5c40af01629474728fec49a80dbf479fd1c27d8ea748febabfe4e0959647f541f4440b092f87d8cdb169f9f5979cb20
+    scule: ^0.3.2
+    stringify-entities: ^4.0.3
+    unist-util-visit: ^4.1.1
+    unist-util-visit-parents: ^5.1.1
+  checksum: c9ecb0d226b330fcbf235af73e89c62789d4b5d510696272f6d81888d830295637e166d8e94f4c6bd3398c62f4eeaa6296c73dd12fdbc01afb45ed867c0bf9c7
   languageName: node
   linkType: hard
 
@@ -8889,7 +8891,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@nuxt/content": ^2.1.1
+    "@nuxt/content": ^2.2.1
     "@nuxtjs/color-mode": ^3.1.6
     "@nuxtjs/eslint-config-typescript": ^11.0.0
     "@nuxtjs/tailwindcss": ^5.3.3
@@ -8982,26 +8984,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scule@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "scule@npm:0.2.1"
-  checksum: d9731b4c3560ce6983d23cc594395b718bc3c08ea3da930a9cd2bd3feb137ad3295521bcbc50baa82dc05d8521a7a41d6b78d2723e5195c053d93359f5808706
-  languageName: node
-  linkType: hard
-
 "scule@npm:^0.3.2":
   version: 0.3.2
   resolution: "scule@npm:0.3.2"
   checksum: cac6c0e66e474fcac8b0a581cd206055a4984b9da04f4cfef8883689c045a2ac0b70bda6851fe714e5f22998fab365fa0f4ad218bdddd41c15a55c0b43f3be47
-  languageName: node
-  linkType: hard
-
-"selfsigned@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "selfsigned@npm:2.0.1"
-  dependencies:
-    node-forge: ^1
-  checksum: 864e65c2f31ca877bce3ccdaa3bdef5e1e992b63b2a03641e00c24cd305bf2acce093431d1fed2e5ae9f526558db4be5e90baa2b3474c0428fcf7e25cc86ac93
   languageName: node
   linkType: hard
 
@@ -9197,6 +9183,28 @@ __metadata:
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
   checksum: b5167a7142c1da704c0e3af85c402002b597081dd9575031a90b4f229ca5678e9a36e8a374f1814c8156a725d17008ae3bde63b92f9cfd132526379e580bec8b
+  languageName: node
+  linkType: hard
+
+"socket.io-client@npm:^4.5.3":
+  version: 4.5.3
+  resolution: "socket.io-client@npm:4.5.3"
+  dependencies:
+    "@socket.io/component-emitter": ~3.1.0
+    debug: ~4.3.2
+    engine.io-client: ~6.2.3
+    socket.io-parser: ~4.2.0
+  checksum: ebd2dbddece9e8b5926e8f20ed3d0620bdb07de70ece8fb6fa786690f543f420e2ea784a37e46ac470af3cc11f0199d9ecabd8f30eaf63c80974c3eaa7e8a9b0
+  languageName: node
+  linkType: hard
+
+"socket.io-parser@npm:~4.2.0":
+  version: 4.2.1
+  resolution: "socket.io-parser@npm:4.2.1"
+  dependencies:
+    "@socket.io/component-emitter": ~3.1.0
+    debug: ~4.3.1
+  checksum: 2582202f22538d7e6b4436991378cb4cea3b2f8219cda24923ae35afd291ab5ad6120e7d093e41738256b6c6ad10c667dd25753c2d9a2340fead04e9286f152d
   languageName: node
   linkType: hard
 
@@ -9420,7 +9428,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stringify-entities@npm:^4.0.2":
+"stringify-entities@npm:^4.0.3":
   version: 4.0.3
   resolution: "stringify-entities@npm:4.0.3"
   dependencies:
@@ -10097,7 +10105,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unist-util-visit-parents@npm:^5.0.0, unist-util-visit-parents@npm:^5.1.0, unist-util-visit-parents@npm:^5.1.1":
+"unist-util-visit-parents@npm:^5.0.0, unist-util-visit-parents@npm:^5.1.1":
   version: 5.1.1
   resolution: "unist-util-visit-parents@npm:5.1.1"
   dependencies:
@@ -10146,24 +10154,6 @@ __metadata:
     webpack-sources: ^3.2.3
     webpack-virtual-modules: ^0.4.5
   checksum: 6f544f7c53511e0b9064112353562159efd6fc0f38a78ff7e9ac5d3c09b298b59ea565165bbfab0eec08b016d50c5e453673581712bfcf875924d06e04bd77cd
-  languageName: node
-  linkType: hard
-
-"unstorage@npm:^0.5.6":
-  version: 0.5.6
-  resolution: "unstorage@npm:0.5.6"
-  dependencies:
-    anymatch: ^3.1.2
-    chokidar: ^3.5.3
-    destr: ^1.1.1
-    h3: ^0.7.12
-    ioredis: ^5.2.2
-    listhen: ^0.2.13
-    mri: ^1.2.0
-    ohmyfetch: ^0.4.18
-    ufo: ^0.8.5
-    ws: ^8.8.1
-  checksum: 2cb0c9b4e5561fbce1a30d0ff724758fed7887f7db9f5d905a3bebb42c7b77b763bf672e9b11cbb82df6bcc6e37d3e2ed8b9bc7214cbb011541ed81a4779b931
   languageName: node
   linkType: hard
 
@@ -10651,22 +10641,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^8.8.1":
-  version: 8.8.1
-  resolution: "ws@npm:8.8.1"
-  peerDependencies:
-    bufferutil: ^4.0.1
-    utf-8-validate: ^5.0.2
-  peerDependenciesMeta:
-    bufferutil:
-      optional: true
-    utf-8-validate:
-      optional: true
-  checksum: 2152cf862cae0693f3775bc688a6afb2e989d19d626d215e70f5fcd8eb55b1c3b0d3a6a4052905ec320e2d7734e20aeedbf9744496d62f15a26ad79cf4cf7dae
-  languageName: node
-  linkType: hard
-
-"ws@npm:^8.9.0":
+"ws@npm:^8.10.0, ws@npm:^8.9.0":
   version: 8.11.0
   resolution: "ws@npm:8.11.0"
   peerDependencies:
@@ -10681,10 +10656,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ws@npm:~8.2.3":
+  version: 8.2.3
+  resolution: "ws@npm:8.2.3"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ^5.0.2
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: c869296ccb45f218ac6d32f8f614cd85b50a21fd434caf11646008eef92173be53490810c5c23aea31bc527902261fbfd7b062197eea341b26128d4be56a85e4
+  languageName: node
+  linkType: hard
+
 "xml-name-validator@npm:^4.0.0":
   version: 4.0.0
   resolution: "xml-name-validator@npm:4.0.0"
   checksum: af100b79c29804f05fa35aa3683e29a321db9b9685d5e5febda3fa1e40f13f85abc40f45a6b2bf7bee33f68a1dc5e8eaef4cec100a304a9db565e6061d4cb5ad
+  languageName: node
+  linkType: hard
+
+"xmlhttprequest-ssl@npm:~2.0.0":
+  version: 2.0.0
+  resolution: "xmlhttprequest-ssl@npm:2.0.0"
+  checksum: 1e98df67f004fec15754392a131343ea92e6ab5ac4d77e842378c5c4e4fd5b6a9134b169d96842cc19422d77b1606b8df84a5685562b3b698cb68441636f827e
   languageName: node
   linkType: hard
 
