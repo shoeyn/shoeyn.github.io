@@ -1,0 +1,1 @@
+import{a as t,b as a}from"./entry.101f2928.js";import{al as n,af as o,am as s,an as c,ag as _}from"./index.d8522b0d.js";const r={},l=_("h1",{class:"text-2xl"}," Page not found ",-1);function f(m,d){const e=a;return n(),o("main",null,[s(e,null,{"not-found":c(()=>[l]),_:1})])}const p=t(r,[["render",f]]);export{p as default};
