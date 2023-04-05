@@ -1,0 +1,1 @@
+import{k as t,a as n,r}from"./entry.72de27b0.js";const a=n({props:{code:{type:String,default:""},language:{type:String,default:null},filename:{type:String,default:null},highlights:{type:Array,default:()=>[]},meta:{type:String,default:null}}});function l(e,o,s,p,d,f){return r(e.$slots,"default")}const i=t(a,[["render",l]]);export{i as default};
