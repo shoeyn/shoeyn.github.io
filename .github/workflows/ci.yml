@@ -23,21 +23,25 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@v3
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.0.1
+
       - name: Setup node env 🏗
         uses: actions/setup-node@v3.6.0
         with:
           node-version: ${{ matrix.node }}
+          cache: 'pnpm'
 
       - name: Cache node_modules 📦
         uses: actions/cache@v3.3.1
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.pnpm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
       - name: Install dependencies 👨🏻‍💻
-        run: yarn
+        run: pnpm install
 
 #      - name: Run linter 👀
 #        run: npm run lint
