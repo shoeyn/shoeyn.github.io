@@ -50,5 +50,8 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: pnpm install
 
+      - name: Generate before lint
+        run: pnpm run generate
+
       - name: Run linter 👀
-        run: pnpm run lint
+        run: pnpm run lint:fix
