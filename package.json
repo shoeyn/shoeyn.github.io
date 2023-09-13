@@ -15,7 +15,7 @@
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "eslint": "^8.49.0",
-    "nuxt": "^3.7.1",
+    "nuxt": "^3.7.2",
     "sitemap": "^7.1.1",
     "typescript": "^5.2.2"
   }
