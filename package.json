@@ -17,6 +17,6 @@
     "eslint": "^8.57.0",
     "nuxt": "^3.10.3",
     "sitemap": "^7.1.1",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.3"
   }
 }
