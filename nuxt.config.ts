@@ -7,7 +7,10 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
-    '@nuxt/devtools'
+    '@nuxt/devtools',
+    '@formkit/auto-animate',
+    '@nuxtjs/sitemap',
+    "@nuxt/eslint"
   ],
 
   nitro: {
