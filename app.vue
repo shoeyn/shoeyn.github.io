@@ -1,3 +1,9 @@
+<script setup lang="ts">
+const { data } = await useAsyncData('navigation', () => {
+  return queryCollectionNavigation('content')
+})
+</script>
+
 <template>
   <div>
     <header>
@@ -9,17 +15,9 @@
         >
           Home
         </NuxtLink>
-        <ContentNavigation v-slot="{ navigation }">
-          <NuxtLink
-            v-for="link of navigation"
-            :key="link._path"
-            :to="link._path"
-            active-class="font-bold"
-            class="mr-4"
-          >
-            {{ link.navTitle || link.title }}
-          </NuxtLink>
-        </ContentNavigation>
+        <template v-for="item in data" :key="item.path">
+          <NuxtLink active-class="font-bold" class="mr-4" :to="item.path">{{ item.title }}</NuxtLink>
+        </template>
       </nav>
     </header>
     <NuxtPage />

@@ -1,36 +1,27 @@
 export default defineNuxtConfig({
+  compatibilityDate: '2026-02-15',
   typescript: {
     shim: false
   },
 
+  site: {
+    url: 'https://shoeynet.com',
+    name: 'Nathan Shoemark',
+    description: 'Personal website of Nathan Shoemark',
+  },
+
   modules: [
-    '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/devtools',
     '@formkit/auto-animate',
     '@nuxtjs/sitemap',
+    '@nuxt/content',
     "@nuxt/eslint"
   ],
 
-  nitro: {
-    prerender: {
-      routes: ['/sitemap.xml']
-    }
-  },
-
   colorMode: {
     classSuffix: ''
-  },
-
-  content: {
-    navigation: {
-      fields: ['navTitle']
-    },
-    highlight: {
-      // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
-      theme: 'dracula'
-    }
   },
 
   devtools: {
