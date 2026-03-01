@@ -9,3 +9,4 @@ dist
 .dccache
 .yarnrc.yml
 .idea
+.data
