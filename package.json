@@ -23,6 +23,6 @@
     "vite": "^7.3.2"
   },
   "dependencies": {
-    "better-sqlite3": "^12.9.0"
+    "better-sqlite3": "^12.10.0"
   }
 }
