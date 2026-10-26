@@ -20,7 +20,7 @@
     "nuxt": "^4.6.1",
     "sitemap": "^9.0.1",
     "typescript": "^6.0.3",
-    "vite": "^8.3.2"
+    "vite": "^8.3.5"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3"
